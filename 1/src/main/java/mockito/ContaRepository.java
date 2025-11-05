@@ -1,4 +1,7 @@
-package main.java.mockito;
+package mockito;
 
-public class ContaRepository {
+public interface ContaRepository{
+
+    public Conta buscarConta(String numero);
+    public void salvar(Conta conta); 
 }
