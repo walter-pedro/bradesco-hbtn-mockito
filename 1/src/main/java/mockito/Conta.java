@@ -2,13 +2,13 @@ package mockito;
 
 public class Conta {
 
-    public Conta(String numero, Double saldo) {
+    public Conta(String numero, double saldo) {
         this.numero = numero;
         this.saldo = saldo;
     }
 
     private String numero;
-    private Double saldo;
+    private double saldo;
 
     public String getNumero() {
         return numero;
@@ -16,10 +16,10 @@ public class Conta {
     public void setNumero(String numero) {
         this.numero = numero;
     }
-    public Double getSaldo() {
+    public double getSaldo() {
         return saldo;
     }
-    public void setSaldo(Double saldo) {
+    public void setSaldo(double saldo) {
         this.saldo = saldo;
     }
 
